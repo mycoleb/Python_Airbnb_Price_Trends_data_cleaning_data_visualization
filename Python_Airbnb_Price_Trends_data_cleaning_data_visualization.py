@@ -51,6 +51,7 @@ prices["price_per_month"] = prices["price"] * 365 / 12
 
 # Calculate average_price_per_month
 average_price_per_month = round(prices["price_per_month"].mean(), 2)
+# Calculate how much more, in dollars, the average cost of an Airbnb listing is versus the private market, and store it as difference, rounding your final answer to two decimal places.
 difference = round((average_price_per_month - 3100),2)
 # Task 5. Clean the room_type column
 
